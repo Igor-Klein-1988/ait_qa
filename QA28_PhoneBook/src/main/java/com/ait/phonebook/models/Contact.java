@@ -61,4 +61,13 @@ public class Contact {
     public String getDescription() {
         return description;
     }
+
+    @Override
+    public String toString() {
+        return "Contact{" +
+                "name='" + name + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", phone='" + phone + '\'' +
+                '}';
+    }
 }

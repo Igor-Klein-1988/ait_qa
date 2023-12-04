@@ -1,0 +1,27 @@
+17:28:12.464 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/igorklein/Library/Caches/JetBrains/IntelliJIdea2023.2/temp-testng-customsuite.xml
+
+17:28:15.684 [main] INFO  com.ait.qa28.demowebshop.TestBase -- Start test loginRegisteredUserPositiveTest with data: []
+17:28:16.799 [main] INFO  com.ait.qa28.demowebshop.TestBase -- PASSED: loginRegisteredUserPositiveTest
+17:28:16.799 [main] INFO  com.ait.qa28.demowebshop.TestBase -- ============================
+17:28:16.802 [main] INFO  com.ait.qa28.demowebshop.TestBase -- Start test isHomeComponentPresentTest with data: []
+17:28:16.818 [main] INFO  com.ait.qa28.demowebshop.TestBase -- PASSED: isHomeComponentPresentTest
+17:28:16.818 [main] INFO  com.ait.qa28.demowebshop.TestBase -- ============================
+17:28:16.819 [main] INFO  com.ait.qa28.demowebshop.TestBase -- Start test checkAddProductInCartPositiveTest with data: []
+17:28:30.350 [main] INFO  com.ait.qa28.demowebshop.TestBase -- PASSED: checkAddProductInCartPositiveTest
+17:28:30.350 [main] INFO  com.ait.qa28.demowebshop.TestBase -- ============================
+17:28:30.351 [main] INFO  com.ait.qa28.demowebshop.TestBase -- Start test checkMessageProductAddedPositiveTest with data: []
+17:28:43.237 [main] INFO  com.ait.qa28.demowebshop.TestBase -- PASSED: checkMessageProductAddedPositiveTest
+17:28:43.238 [main] INFO  com.ait.qa28.demowebshop.TestBase -- ============================
+17:28:43.247 [main] INFO  com.ait.qa28.demowebshop.TestBase -- Start test registerExistedUserFromSCVProviderNegativeTest with data: [User(email=igorAalen@gmail.com, password=Qwerty007!, gender=male, firstName=Igor, lastName=Aalen)]
+17:28:55.363 [main] INFO  com.ait.qa28.demowebshop.TestBase -- PASSED: registerExistedUserFromSCVProviderNegativeTest
+17:28:55.363 [main] INFO  com.ait.qa28.demowebshop.TestBase -- ============================
+17:28:55.365 [main] INFO  com.ait.qa28.demowebshop.TestBase -- Start test registerExistedUserFromSCVProviderNegativeTest with data: [User(email=andreyberlin@gmail.com, password=Qwerty007!, gender=male, firstName=Andrey, lastName=Berlin)]
+17:28:56.674 [main] INFO  com.ait.qa28.demowebshop.TestBase -- PASSED: registerExistedUserFromSCVProviderNegativeTest
+17:28:56.674 [main] INFO  com.ait.qa28.demowebshop.TestBase -- ============================
+17:28:56.675 [main] INFO  com.ait.qa28.demowebshop.TestBase -- Start test registerExistedUserFromSCVProviderNegativeTest with data: [User(email=olgariga@mail.com, password=Qwerty007!, gender=female, firstName=Olga, lastName=Riga)]
+17:28:59.016 [main] INFO  com.ait.qa28.demowebshop.TestBase -- PASSED: registerExistedUserFromSCVProviderNegativeTest
+17:28:59.017 [main] INFO  com.ait.qa28.demowebshop.TestBase -- ============================
+17:28:59.017 [main] INFO  com.ait.qa28.demowebshop.TestBase -- Start test registerExistedUserFromSCVProviderNegativeTest with data: [User(email=stasrome@gmail.com, password=Qwerty007!, gender=male, firstName=Stas, lastName=Rome)]
+17:29:00.489 [main] INFO  com.ait.qa28.demowebshop.TestBase -- PASSED: registerExistedUserFromSCVProviderNegativeTest
+17:29:00.490 [main] INFO  com.ait.qa28.demowebshop.TestBase -- ============================

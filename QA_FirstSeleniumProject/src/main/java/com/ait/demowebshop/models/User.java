@@ -1,11 +1,11 @@
 package com.ait.demowebshop.models;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 
-@Getter
-@Setter
+@Data
 @Accessors(chain = true)
 public class User {
     private String email;
