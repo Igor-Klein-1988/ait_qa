@@ -1,6 +1,7 @@
 package com.ait.phonebook.tests;
 
 import com.ait.phonebook.models.User;
+import com.ait.phonebook.utils.UserData;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -25,8 +26,8 @@ public class CreateNewAccount extends TestBase {
     public void registerExistedUserNegativeTest() {
         app.getUser().clickOnLoginLink();
         app.getUser().fillLoginRegisterForm(new User()
-                .setEmail("email@gmail.com")
-                .setPassword("Wert1!%&"));
+                .setEmail(UserData.EMAIL)
+                .setPassword(UserData.PASSWORD));
 
         app.getUser().clickOnRegistrationButton();
 

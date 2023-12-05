@@ -38,10 +38,10 @@ public class TestBase {
 
     @AfterMethod
     public void stopTest(ITestResult result) {
-        if(result.isSuccess()){
+        if (result.isSuccess()) {
             logger.info("PASSED: " + result.getMethod().getMethodName());
         } else {
-            logger.error("FAILED: " + result.getMethod().getMethodName());
+            logger.error("FAILED: " + result.getMethod().getMethodName() + app.getContact().takeScreenshot());
         }
         logger.info("============================");
     }

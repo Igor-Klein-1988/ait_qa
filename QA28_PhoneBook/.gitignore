@@ -1,5 +1,9 @@
 .gradle
-build/
+build/classes
+build/generated
+build/reports
+build/resources
+build/tmp
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
@@ -44,7 +48,6 @@ bin/
 ### from lesson QA
 
 .gradle/
-/build/
 /gradle/
 setting.gradle
 gradlew
